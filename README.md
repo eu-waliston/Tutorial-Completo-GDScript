@@ -1,4 +1,4 @@
-<img width="1024" height="1024" alt="Image" src="https://github.com/user-attachments/assets/b2c5e4ff-36a9-424c-8711-a8904581d9b6" />
+<img width="720" height="720" alt="Image" src="https://github.com/user-attachments/assets/b2c5e4ff-36a9-424c-8711-a8904581d9b6" />
 
 # Tutorial Completo de GDScript: Do Básico ao Avançado
 
@@ -21,3 +21,5 @@
 10 - Padrões de Design
 
 11 - Otimização e Boas Práticas
+
+EXTRA - 🎮 Projeto Completo: "Dungeon Crawler RPG"
