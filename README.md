@@ -1,4 +1,9 @@
-<img width="250" height="250" alt="Image" position="center" src="https://github.com/user-attachments/assets/b2c5e4ff-36a9-424c-8711-a8904581d9b6" />
+<div position="center">
+
+<img width="250" height="250" alt="Image" src="https://github.com/user-attachments/assets/b2c5e4ff-36a9-424c-8711-a8904581d9b6" />
+  
+</div>
+
 
 # Tutorial Completo de GDScript: Do Básico ao Avançado
 
