@@ -1,0 +1,9 @@
+extends CharacterBody2D
+
+var Bullet = preload("res://Bullet.tscn")
+
+func _input(event):
+    if event.is_action_pressed("shoot"): # define 'shoot' em Input Map
+        var b = Bullet.instantiate()
+        b.position = position
+        get_tree().current_scene.add_child(b)

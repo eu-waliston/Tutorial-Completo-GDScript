@@ -2,7 +2,8 @@ class_name BulletPool
 
 extends Node
 
-var bullet_scene: PackedScene = preload("res://Bullet.tscn")
+# Ensure the path is correct and the file exists; update if necessary
+#var bullet_scene: PackedScene = preload("res://Bullets/Bullet.tscn")
 var available_bullets: Array[Node] = []
 var in_use_bullets: Array[Node] = []
 
@@ -12,7 +13,7 @@ func get_bullet() -> Node:
     if available_bullets.size() > 0:
         bullet = available_bullets.pop_back()
     else:
-        bullet = bullet_scene.instantiate()
+        #bullet = bullet_scene.instantiate()
         add_child(bullet)
 
     in_use_bullets.append(bullet)
