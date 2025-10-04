@@ -1,15 +1,19 @@
+extends Node
 # Definindo sinais personalizados
+
+var health: int = 100
 
 signal health_changed(old_health, new_health)
 signal player_died
-signal item_detected(item_name, value)
-
 # Emitindo snais
 
 func take_damage(amount: int):
     var old_health = health
     health -= amount
+    emit_signal("health_changed", old_health, health)
 
+    if health <= 0:
+        emit_signal("player_died")
     if health <= 0:
         emit_signal("Player_died")
 
